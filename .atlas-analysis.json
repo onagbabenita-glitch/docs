@@ -1,0 +1,67 @@
+{
+  "projectType": "saas",
+  "projectName": "VidSpark",
+  "projectDescription": "VidSpark is an AI-powered creative app that lets users generate images and videos from text prompts or uploaded images using Imagen and Veo AI models.",
+  "theme": "almond",
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "Modes",
+            "pages": [
+              "modes/image-generator",
+              "modes/image-to-video",
+              "modes/prompt-to-video"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "guides/art-styles",
+              "guides/motion-intensity",
+              "guides/video-styles",
+              "guides/downloading-content"
+            ]
+          },
+          {
+            "group": "Help",
+            "pages": [
+              "help/faq",
+              "help/troubleshooting"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "AI image generation with Imagen using customizable art styles",
+    "Image-to-video animation with Veo and motion intensity controls",
+    "Text prompt-to-video generation with style and mood settings",
+    "One-click image and video download",
+    "Seamless mode switching (e.g., send generated image directly to video)",
+    "Dark-themed immersive UI with real-time loading feedback"
+  ],
+  "publicApiSurface": [
+    "Mode 1: Image Generator — describe image + choose art style → generate image",
+    "Mode 2: Image to Video — upload/pass image + motion description + intensity → animate video",
+    "Mode 3: Prompt to Video — describe scene + video style + mood → generate 5-8s video",
+    "Art styles: Photorealistic, Cinematic, Anime, Oil Painting, Watercolor, Dark Fantasy, Minimalist",
+    "Motion intensity options: Subtle, Medium, Dynamic",
+    "Video styles: Cinematic, Cartoon, Realistic, Abstract, Sci-Fi, Nature",
+    "Video moods: Epic, Calm, Dark, Joyful, Mysterious",
+    "Actions: Download Image, Download Video, Turn into Video, Regenerate, Start Over"
+  ]
+}

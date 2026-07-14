@@ -1,0 +1,184 @@
+---
+title: 'Troubleshooting Common VidSpark Issues'
+sidebarTitle: 'Troubleshooting'
+description: 'Resolve common issues in VidSpark, from generation errors and slow loading to unexpected results and download problems. Step-by-step solutions included.'
+---
+
+This page covers common issues users encounter in VidSpark and how to resolve them — including generation failures, unexpected visual results, video playback problems, and download issues. Follow the step-by-step solutions below to get back to creating.
+
+## Generation Issues
+
+<AccordionGroup>
+
+  <Accordion title="Generation takes longer than expected">
+    Slow generation may occur during high-traffic periods when server demand is elevated.
+
+    **What to do:**
+    - The loading animation (*VidSpark is generating... ⚡*) will continue until the process completes — this is normal.
+    - **Do not close the browser tab** while generation is in progress, as this will cancel the request.
+    - If generation has not completed after **2 minutes**, click **Start Over** and try generating again.
+
+    <Tip>
+      Shorter, more focused prompts tend to resolve faster. If you're in Mode 3, try simplifying your scene description.
+    </Tip>
+  </Accordion>
+
+  <Accordion title="Generation failed or returned an error">
+    Errors during generation are usually caused by a connectivity issue or a problematic prompt.
+
+    **Steps to resolve:**
+
+    <Steps>
+      <Step title="Check your internet connection">
+        Ensure you have a stable connection before retrying. A dropped connection mid-generation can cause failures.
+      </Step>
+      <Step title="Rephrase your prompt">
+        Avoid ambiguous, contradictory, or overly complex instructions. Be clear and specific about your subject, style, and intent.
+      </Step>
+      <Step title="Start Over and retry">
+        Click **Start Over** to reset your session, then re-enter your prompt and try again.
+      </Step>
+    </Steps>
+
+    <Warning>
+      Prompts that include conflicting instructions (e.g., *"make it both dark and vibrant"*) may cause unpredictable results or errors. Resolve conflicts before retrying.
+    </Warning>
+  </Accordion>
+
+  <Accordion title="The image or video doesn't match my description">
+    If the output doesn't reflect your intent, the prompt likely needs more specificity.
+
+    **Tips for better results:**
+    - Add detail about **subject**, **lighting**, **camera angle**, and **setting**.
+    - Choose an **art style** or **video style** that closely aligns with your vision before generating.
+    - For Mode 3, also select a **mood** that matches the emotional tone you want.
+
+    <Tip>
+      Compare: *"a forest"* vs. *"a misty forest at dawn, sunlight filtering through tall pine trees, low fog on the ground"* — the second prompt will consistently produce more accurate results.
+    </Tip>
+  </Accordion>
+
+</AccordionGroup>
+
+---
+
+## Image Issues (Mode 1)
+
+<AccordionGroup>
+
+  <Accordion title="My image looks blurry or low-quality">
+    Image quality is directly influenced by how clearly the subject and setting are described in your prompt.
+
+    **Steps to improve quality:**
+    - Avoid vague prompts like *"a person"* or *"a place"*. Describe your subject with specificity.
+    - Try switching to the **Photorealistic** or **Cinematic** art style, which tend to produce sharper, more detailed results.
+    - Include lighting details in your prompt (e.g., *"soft natural light"*, *"golden hour"*, *"dramatic studio lighting"*).
+  </Accordion>
+
+  <Accordion title="The wrong art style was applied">
+    Art style is locked in at generation time and cannot be changed after an image is produced.
+
+    **To fix this:**
+    1. Click **Start Over** to return to the mode selector.
+    2. Re-enter Mode 1 (Image Generator).
+    3. Re-enter your prompt and carefully **reselect the correct art style** before clicking Generate.
+  </Accordion>
+
+</AccordionGroup>
+
+---
+
+## Video Issues (Modes 2 and 3)
+
+<AccordionGroup>
+
+  <Accordion title="The video player shows a black screen">
+    A black screen in the video player usually indicates a playback or browser compatibility issue.
+
+    **Steps to resolve:**
+
+    <Steps>
+      <Step title="Refresh the page">
+        Press **Ctrl + R** (Windows) or **Cmd + R** (Mac) to reload. If the video was fully generated, it should reload correctly.
+      </Step>
+      <Step title="Check browser compatibility">
+        VidSpark video playback is best supported in **Chrome**, **Firefox**, and **Safari**. If you're using a different browser, switch to one of these.
+      </Step>
+      <Step title="Disable browser extensions">
+        Some ad blockers or privacy extensions may interfere with video rendering. Try disabling them and refreshing.
+      </Step>
+    </Steps>
+  </Accordion>
+
+  <Accordion title="My uploaded image was not accepted in Mode 2">
+    VidSpark's Image to Video mode has requirements for uploaded images.
+
+    **Check the following:**
+    - The image must be in **JPG or PNG format**. Other formats (e.g., WEBP, GIF, BMP) may not be accepted.
+    - Ensure the file is **under the maximum file size** allowed by the uploader.
+    - Avoid images with **very low resolution**, as they may produce poor animation quality.
+
+    <Tip>
+      For best results, use a clear, high-contrast image with a well-defined subject. Complex or cluttered images may produce less predictable motion.
+    </Tip>
+  </Accordion>
+
+  <Accordion title="The motion in my animated video doesn't look right">
+    Unexpected or unnatural motion in Mode 2 is usually caused by an imprecise motion description or a mismatched intensity setting.
+
+    **How to improve your result:**
+    - **Name specific elements** in the image and describe how each one should move (e.g., *"the flag waves in the wind, the crowd in the background sways slowly"*).
+    - **Adjust motion intensity** to match the desired energy level:
+      - Use **Subtle** for scenes that should feel almost still (e.g., a sleeping figure, a calm lake).
+      - Use **Dynamic** for scenes with active or vigorous movement (e.g., a storm, a dance, a chase).
+    - Click **Start Over** and re-enter Mode 2 with your revised description and intensity setting.
+  </Accordion>
+
+  <Accordion title="The Regenerate button is not available">
+    The **Regenerate** button is only present in **Mode 3 (Prompt to Video)**. It is intentionally not available in Mode 2 (Image to Video).
+
+    If you want to try a different result in Mode 2:
+    1. Click **Start Over** to return to the mode selector.
+    2. Re-enter Mode 2.
+    3. Re-upload your image and adjust your motion description or intensity before generating again.
+  </Accordion>
+
+</AccordionGroup>
+
+---
+
+## Download Issues
+
+<AccordionGroup>
+
+  <Accordion title="The download button does nothing">
+    If clicking the download button produces no response, try the following:
+
+    **Steps to resolve:**
+
+    <Steps>
+      <Step title="Use right-click to save">
+        Right-click the image or video player and select **Save Image As** or **Save Video As** from the context menu.
+      </Step>
+      <Step title="Check browser download permissions">
+        Make sure your browser is set to **allow file downloads** from VidSpark. Check your browser's site permissions settings.
+      </Step>
+      <Step title="Try a different browser">
+        Switch to **Chrome**, **Firefox**, or **Safari** if your current browser is blocking the download.
+      </Step>
+    </Steps>
+  </Accordion>
+
+  <Accordion title="My downloaded video has no audio">
+    This is expected behavior. **VidSpark generates silent videos by default.** Audio is not currently supported in any generation mode.
+
+    If your project requires audio, you can add a soundtrack using a third-party video editor after downloading your VidSpark video.
+  </Accordion>
+
+</AccordionGroup>
+
+---
+
+<Note>
+  For issues not listed here, use the **Start Over** button to reset your session and try again from the beginning. Persistent issues may be resolved by clearing your browser cache — in most browsers this can be done via **Settings → Privacy → Clear browsing data**.
+</Note>
